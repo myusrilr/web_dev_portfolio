@@ -1,0 +1,18 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2fff8f3;
+    border-radius: .3rem;
+}
+#projects {
+    background-color: #e2fff8f3;
+}
+img{
+    height: 500px;
+
+}
+section {
+    padding-top: 5rem;
+}
+#imgtech{
+    height: 300px;
+}

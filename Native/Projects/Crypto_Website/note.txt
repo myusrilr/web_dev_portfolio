@@ -1,0 +1,25 @@
+screen changing @media queries at CSS:
+- min width 575px 
+- min width 768px 
+- min width 992px 
+- min width 1200px 
+
+screen to shoot:
+- 574
+- 767
+- 991
+- 1199
+- 1200
+
+The Sections Order :
+- Header/Navbar
+- Hero
+- Trend
+- Market
+- How it Work
+- About
+- App
+- Footer
+
+
+

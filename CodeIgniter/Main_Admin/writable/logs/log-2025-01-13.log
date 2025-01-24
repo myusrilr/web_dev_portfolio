@@ -1,0 +1,1157 @@
+INFO - 2025-01-13 01:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 01:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:09:20 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 915.
+ 1 APPPATH\Controllers\Calonsiswa.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 915)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:09:33 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 915.
+ 1 APPPATH\Controllers\Calonsiswa.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 915)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:09:42 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 915.
+ 1 APPPATH\Controllers\Calonsiswa.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 915)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:10:18 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 915.
+ 1 APPPATH\Controllers\Calonsiswa.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 915)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:10:27 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 915.
+ 1 APPPATH\Controllers\Calonsiswa.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 915)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:14:50 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:15:03 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:15:49 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:24:01 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 920.
+ 1 APPPATH\Controllers\Calonsiswa.php(920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 920)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:24:03 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 920.
+ 1 APPPATH\Controllers\Calonsiswa.php(920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 920)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:24:34 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:24:44 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:28:16 --> ErrorException: Undefined variable $status
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:28:23 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 918.
+ 1 APPPATH\Controllers\Calonsiswa.php(918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 918)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:35:33 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idprovin...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovin...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovin...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovin...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovin...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:35:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 2 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:35:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovinsi, name FROM provinsi;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovinsi, name FROM provinsi;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 4 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:35:33 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idprovinsi, name FROM provinsi;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovinsi, name FROM provinsi;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovinsi, name FROM provinsi;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 5 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:36:10 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 982.
+ 1 APPPATH\Controllers\Calonsiswa.php(982): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 982)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:36:15 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:36:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:36:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:36:15 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:36:27 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:36:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:36:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:36:27 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:39:34 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:39:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:34 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:39:41 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:39:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:41 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:39:46 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:39:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:39:46 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 02:40:51 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FRO...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 02:40:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:40:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 02:40:51 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM provinsi where idprovinsi = \'1101\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(610): App\Models\Mcustom->getAllQR('SELECT name FROM provinsi where idprovinsi = \'1101\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:43:26 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:43:49 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:43:56 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:44:32 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:47:38 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:47:49 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:51:54 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 02:52:19 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 02:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:08:14 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:09:25 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:30:38 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:30:45 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:43:31 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:43:45 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:43:57 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:47:31 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:47:43 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-13 03:54:39 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idprovin...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovin...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovin...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovin...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovin...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2025-01-13 03:54:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+[Method: POST, Route: calonsiswa/simpan_table_rujukan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 2 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 03:54:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovinsi, name FROM provinsi;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovinsi, name FROM provinsi;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 4 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-13 03:54:39 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idprovinsi, name FROM provinsi;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idprovinsi, name FROM provinsi;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idprovinsi, name FROM provinsi;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idprovinsi, name FROM provinsi;')
+ 5 APPPATH\Controllers\Calonsiswa.php(904): App\Models\Mcustom->getAllQ('SELECT idprovinsi, name FROM provinsi;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:54:52 --> ErrorException: Undefined variable $status
+[Method: GET, Route: calonsiswa/simpan_table_rujukan]
+in APPPATH\Controllers\Calonsiswa.php on line 982.
+ 1 APPPATH\Controllers\Calonsiswa.php(982): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 982)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->simpan_table_rujukan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:59:27 --> ErrorException: Attempt to read property "nama" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 03:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 03:59:39 --> ErrorException: Attempt to read property "nama" on null
+[Method: GET, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 610.
+ 1 APPPATH\Controllers\Calonsiswa.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 04:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-13 04:05:57 --> ErrorException: Attempt to read property "name" on null
+[Method: POST, Route: calonsiswa/load_pertanyaan/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 614.
+ 1 APPPATH\Controllers\Calonsiswa.php(614): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 614)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->load_pertanyaan('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-13 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 04:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 05:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 07:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 08:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 09:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 09:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 09:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 14:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 15:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 15:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 15:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 15:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 22:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-13 23:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

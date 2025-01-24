@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo.png" alt="">
+        <!-- Halaman 1: Data Diri -->
+        <div class="form-page" id="page-1">
+            <h2>Personal Data Entry</h2>
+            <h5>TOEFL CBT Simulation</h5>
+            <label for="name" id="name-label">Name:</label>
+            <br><br>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="email" id="email-label">Email:</label>
+            <br><br>
+            <input type="email" id="email" required>
+            <br><br>
+            <label for="phone" id="phone-label">Phone Number:</label>
+            <br><br>
+            <div class="input-container">
+                <input type="tel" id="phone" required>
+                <br><br>
+                <!-- Tombol ke halaman berikutnya -->
+                <button id="nextButton" onclick="nextPage()">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

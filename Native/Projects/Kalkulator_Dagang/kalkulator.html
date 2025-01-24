@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="kalkulator.css">
+    <title>Kalkulator Dagang</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <form name="form">
+                <input type="text" class="hasil" name="hasil" id="hasil">
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
+                    <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
+                    <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
+                    <td><input type="button" class="hpp" value="Hpp" onclick="setHpp()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
+                    <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
+                    <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
+                    <td><input type="button" class="hj" value="Hj" onclick="handleHj()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
+                    <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
+                    <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
+                    <td><input type="button" class="percent"  id="percent" value="%" onclick="setMargin()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="0" onclick="insert(0)"></td>
+                    <td><input type="button" class="button clear" value="C" onclick="clearInput()"></td>
+                    <td><input type="button" class="button" value="." onclick="insert('.')"></td>
+                    <td><input type="button" class="margin" value="Margin" onclick="calculateMargin()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+</body>
+
+</html>

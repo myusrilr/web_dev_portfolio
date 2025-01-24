@@ -1,0 +1,255 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* Mengimpor font Poppins dari Google Fonts untuk digunakan di seluruh halaman */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* Mengatur margin dan padding semua elemen menjadi 0, menetapkan box-sizing agar padding tidak menambah ukuran elemen, dan menetapkan font Poppins sebagai font default */
+
+body{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,207,0.7511379551820728) 100%);
+}
+/* Mengatur tampilan body agar menggunakan Flexbox, menyelaraskan konten secara vertikal dan horizontal di tengah, memberi padding horizontal 10px, mengatur tinggi minimum 100% dari viewport, dan memberi warna latar ungu (#9B59B6) */
+
+.wrapper{
+  width: 450px;
+  background: rgb(32, 206, 230);
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+/* Mengatur lebar kontainer utama (wrapper) menjadi 450px, dengan latar belakang putih, sudut membulat 10px, dan bayangan */
+/* Modal styling */
+.modal {
+  display: none; /* Tersembunyi secara default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Style untuk form dalam modal */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.time-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.material-icons {
+  font-size: 24px;
+  vertical-align: middle;
+  color: #757575;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.wrapper header{
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+/* Mengatur elemen <header> di dalam .wrapper dengan Flexbox, 
+menempatkan konten secara vertikal di tengah (align-items: center),
+dan memastikan elemen-elemen di dalamnya memiliki jarak yang merata di kedua sisi (justify-content: space-between).
+Juga, menambahkan padding atas-bawah (25px dan 10px) dan kiri-kanan (30px). */
+
+header .icons{
+  display: flex;
+}
+/* Mengatur ikon-ikon di dalam elemen <header> untuk menggunakan Flexbox, 
+sehingga ikon sebelumnya dan berikutnya (chevron_left dan chevron_right) akan ditempatkan secara horizontal. */
+
+header .icons span{
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+/* Mengatur elemen <span> di dalam .icons dengan ukuran tinggi dan lebar 38px untuk membentuk lingkaran.
+Memberikan margin 1px pada kedua sisi, dan menambahkan kursor pointer untuk menunjukkan bahwa elemen ini dapat diklik.
+Ikon diberikan warna abu-abu (#878787) dengan teks di tengah (text-align: center).
+line-height disesuaikan dengan tinggi ikon untuk menempatkan teks vertikal di tengah.
+user-select: none mencegah teks di dalam ikon agar tidak dapat dipilih oleh pengguna, dan border-radius: 50% membuat ikon berbentuk lingkaran. */
+
+.icons span:last-child{
+  margin-right: -10px;
+}
+/* Menambahkan margin negatif 10px pada ikon terakhir (ikon "next") di dalam .icons 
+untuk sedikit mengurangi jarak antara ikon dan tepi elemen yang mengelilinginya. */
+
+header .icons span:hover{
+  background: #f2f2f2;
+}
+/* Memberikan efek hover pada ikon. Saat pengguna mengarahkan kursor ke ikon, 
+latar belakang ikon akan berubah menjadi abu-abu terang (#f2f2f2). */
+
+header .current-date{
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+/* Mengatur ukuran font elemen <p> dengan kelas .current-date menjadi 1.45rem dan memberikan font-weight 500 untuk tebal medium. */
+
+.calendar{
+  padding: 20px;
+}
+/* Menambahkan padding 20px di semua sisi elemen dengan kelas .calendar. */
+
+.calendar ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+/* Mengatur elemen <ul> di dalam .calendar untuk menggunakan Flexbox dengan wrapping (flex-wrap: wrap), 
+agar item-item di dalamnya (seperti hari-hari atau tanggal-tanggal) otomatis terpecah ke baris berikutnya.
+list-style: none menghapus tanda bullet point dari elemen <ul>, dan text-align: center memastikan semua teks di dalam elemen <li> berpusat. */
+
+.calendar .days{
+  margin-bottom: 20px;
+}
+/* Memberikan margin bawah sebesar 20px pada elemen dengan kelas .days 
+untuk memberi jarak antara daftar tanggal dan elemen-elemen di bawahnya. */
+
+.calendar li{
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+}
+/* Mengatur warna teks elemen <li> menjadi abu-abu gelap (#333) dan memberikan lebar sebesar 1/7 dari lebar elemen induk menggunakan 
+calc(100% / 7) untuk memastikan setiap hari atau tanggal dalam minggu ditempatkan secara proporsional dalam satu baris.
+Ukuran fontnya ditetapkan menjadi 1.07rem. */
+
+.calendar .weeks li{
+  font-weight: 500;
+  cursor: default;
+}
+/* Mengatur font-weight (ketebalan huruf) dari elemen <li> di dalam .weeks menjadi 500 (semi-bold).
+cursor: default mencegah ikon kursor berubah menjadi pointer saat mengarah ke nama hari (Sun, Mon, dsb.). */
+
+.calendar .days li{
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+/* Mengatur elemen <li> di dalam .days agar dapat diklik (cursor: pointer), 
+memberikan z-index 1 agar elemen ini berada di atas elemen lainnya jika terjadi tumpang tindih,
+dan margin-top 30px untuk memberikan jarak antara hari dan item lainnya. position: relative memungkinkan elemen pseudo (::before) bekerja dengan posisi relatif terhadap elemen <li> ini. */
+
+.days li.inactive{
+  color: #aaa;
+}
+/* Memberikan warna abu-abu terang (#aaa) pada elemen <li> dengan kelas "inactive" untuk menandakan tanggal yang bukan bagian dari bulan saat ini. */
+
+.days li.active{
+  color: #fff;
+}
+/* Memberikan warna teks putih pada elemen <li> dengan kelas "active" untuk menandakan tanggal saat ini. */
+
+.days li::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Menggunakan pseudo-elemen ::before pada elemen <li> di dalam .days.
+Pseudo-elemen ini adalah lingkaran dengan ukuran tinggi dan lebar 40px, ditempatkan di tengah (left: 50%, top: 50%) menggunakan posisi absolute.
+z-index: -1 memastikan lingkaran ini berada di bawah konten teks, dan transform: translate(-50%, -50%) memastikan lingkaran benar-benar berada di tengah elemen <li>. 
+border-radius: 50% membuat pseudo-elemen berbentuk lingkaran. */
+
+.days li.active::before{
+  background: #9B59B6;
+}
+/* Mengatur latar belakang pseudo-elemen ::before pada elemen <li> dengan kelas "active" menjadi warna ungu (#9B59B6).
+Ini akan menyorot tanggal aktif (hari ini) dengan lingkaran ungu di belakang angka tanggal. */
+
+.days li:not(.active):hover::before{
+  background: #f2f2f2;
+}
+/* Memberikan efek hover pada elemen <li> yang bukan "active". 
+Saat pengguna mengarahkan kursor ke tanggal, lingkaran di belakang tanggal akan berubah menjadi abu-abu terang (#f2f2f2). */
+/* Styling untuk ikon kalender di pojok kanan bawah */
+.calendar-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-icon span {
+  font-size: 2.5rem;
+}
+
+.calendar-icon:hover {
+  background-color: rgb(78, 138, 242);
+}
+/* Menambahkan efek hover untuk mengganti warna ikon saat pengguna mengarahkan kursor */

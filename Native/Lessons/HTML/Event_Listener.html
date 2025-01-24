@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1 id="target">Yusril</h1>
+    <script>
+        let target=document.getElementById("target");
+
+        target.addEventListener("click", function(){
+            this.style.color="RED";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+INFO - 2024-09-24 06:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 06:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 14:28:33 --> ErrorException: Undefined variable $provinsi
+[Method: GET, Route: registrasiulang/index/R2hTYmFFM0hJRTNmRTFOcVJUS1Q1Zz09]
+in APPPATH\Views\back\single_page\register.php on line 351.
+ 1 APPPATH\Views\back\single_page\register.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php', 351)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(46): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->index('R2hTYmFFM0hJRTNmRTFOcVJUS1Q1Zz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-24 14:28:54 --> ErrorException: Undefined variable $mitra
+[Method: GET, Route: registrasiulang/index/R2hTYmFFM0hJRTNmRTFOcVJUS1Q1Zz09]
+in APPPATH\Views\back\single_page\register.php on line 353.
+ 1 APPPATH\Views\back\single_page\register.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mitra', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php', 353)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(46): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->index('R2hTYmFFM0hJRTNmRTFOcVJUS1Q1Zz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-24 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 07:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,68 @@
+.accordion1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.panel1 {
+  padding: 0 18px;
+  background-color: white;
+  overflow: none;
+  display: none;
+}
+
+.change1 {
+  padding: 0 18px;
+  background-color: white;
+}
+
+.accordion2 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.panel2 {
+  padding: 0 18px;
+  background-color: white;
+  overflow: none;
+  display: none;
+}
+
+.change2 {
+  padding: 0 18px;
+  background-color: white;
+}
+
+.accordion3 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.panel3 {
+  padding: 0 18px;
+  background-color: white;
+  overflow: none;
+  display: none;
+}
+
+.change3 {
+  padding: 0 18px;
+  background-color: white;
+}

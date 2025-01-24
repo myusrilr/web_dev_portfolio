@@ -1,0 +1,1027 @@
+INFO - 2024-10-09 07:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 07:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-09 09:53:11 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 09:53:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:53:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:53:11 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 09:53:35 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 09:53:35 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 09:53:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:53:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:53:35 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 09:55:47 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 09:55:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:55:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:55:47 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 09:55:51 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 09:55:51 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 09:55:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:55:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 09:55:51 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(285): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:00:59 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:00:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:00:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:00:59 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]]OMAR[[:>:]]\' OR nama_lengkap REGEXP \'[[:<:]]AL[[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 10:01:01 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:01:01 --> mysqli_sql_exception: Illegal argument to a regular expression. in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:01:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:01:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:01:01 --> [Caused by] mysqli_sql_exception: Illegal argument to a regular expression.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(284): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM siswa WHERE (nama_lengkap REGEXP \'[[:<:]][[:>:]]\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:25:39 --> ErrorException: Undefined variable $db
+[Method: POST, Route: registrasiulang/cari]
+in APPPATH\Controllers\Registrasiulang.php on line 280.
+ 1 APPPATH\Controllers\Registrasiulang.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 10:25:43 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:25:43 --> ErrorException: Undefined variable $db
+[Method: GET, Route: registrasiulang/cari]
+in APPPATH\Controllers\Registrasiulang.php on line 280.
+ 1 APPPATH\Controllers\Registrasiulang.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 280)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:26:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:26:18 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:26:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:26:18 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'OMAR%\' THEN 2 WHEN nama_lengkap LIKE \'AL%\' THEN 1 ELSE 3 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])OMAR([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AL([[:space:]]|$)\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 10:26:21 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:26:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*)...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:26:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 2 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:26:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 4 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:26:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 5 APPPATH\Controllers\Registrasiulang.php(298): App\Models\Mcustom->getAllQR('SELECT count(*) as jml, 
+CASE WHEN nama_lengkap LIKE \'%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\')')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:30:57 --> InvalidArgumentException: Invalid escape context provided.
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Common.php on line 433.
+ 1 APPPATH\Controllers\Registrasiulang.php(311): esc('OMAR', 'sql')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:47:10 --> TypeError: Unsupported operand types: array + int
+[Method: POST, Route: registrasiulang/cari]
+in APPPATH\Controllers\Registrasiulang.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:47:22 --> TypeError: Unsupported operand types: array + int
+[Method: POST, Route: registrasiulang/cari]
+in APPPATH\Controllers\Registrasiulang.php on line 297.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:50:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:50:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:50:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:50:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 10:50:59 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:50:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:50:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 2 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:50:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:50:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 5 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:52:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:52:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:52:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:52:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 APPPATH\Controllers\Registrasiulang.php(316): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 3 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 1 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:53:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:53:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:53:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:53:30 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])BENEDICT' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 5 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%BENEDICT%\' THEN 1 WHEN nama_lengkap LIKE \'%AIRLANGGA%\' THEN 2 WHEN nama_lengkap LIKE \'%ISHAK%\' THEN 3 ELSE 4 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])BENEDICT([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])AIRLANGGA([[:space:]]|$)\' OR nama_lengkap REGEXP \'(^|[[:space:]])ISHAK([[:space:]]|$)\') ORDER BY similarity;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-09 10:53:33 --> [DEPRECATED] rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 271.
+ 1 APPPATH\Controllers\Registrasiulang.php(271): rtrim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-09 10:53:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-10-09 10:53:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+[Method: GET, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 2 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:53:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 10:53:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP '(^|[[:space:]])([[:spac' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 5 APPPATH\Controllers\Registrasiulang.php(314): App\Models\Mcustom->getAllQ('SELECT idsiswa, nama_lengkap, 
+    (CASE WHEN nama_lengkap LIKE \'%%\' THEN 1 ELSE 2 END AS similarity 
+FROM siswa 
+WHERE (nama_lengkap REGEXP \'(^|[[:space:]])([[:space:]]|$)\') ORDER BY similarity;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

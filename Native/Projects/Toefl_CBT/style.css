@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #72BF78;
+}
+
+.container {
+    width: 90vw;
+    height: 80vh;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-page {
+    width: 50vw;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Mengatur container untuk input dan tombol */
+.input-container {
+    position: relative;
+    /* Menjadikan container sebagai posisi acuan untuk tombol */
+    margin-bottom: 50px;
+    /* Memberikan jarak bawah agar tombol tidak tumpang tindih dengan konten lain */
+
+}
+
+img{
+width: 600px;
+}
+h5{
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    font-size:5em;
+    text-align: center;
+}
+
+label#name-label, label#email-label, label#phone-label, #nextButton {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+}
+
+
+/* Gaya untuk input nomor HP */
+input#phone,
+#email,
+#name {
+    width: 97%;
+    /* Mengatur lebar input agar mengisi penuh container */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Gaya untuk tombol selanjutnya */
+button#nextButton {
+    position: absolute;
+    /* Posisi absolute di dalam container */
+    right: 0;
+    /* Menempel di pojok kanan */
+    bottom: -50px;
+    /* Menempatkan tepat di bawah input (disesuaikan dengan tinggi tombol) */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Gaya tombol ketika disabled */
+button#nextButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Mengatur posisi timer agar berada di pojok kanan atas */
+.navigation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: #A0D683;
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+p,h4,h3{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 95vw;
+}
+
+.soal{
+    margin: 30px 30px 30px 30px;
+    max-width: 50vw;
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 80vh;
+    background-color: #A0D683;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.jawaban{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    margin: 30px 30px 30px 30px;
+    max-width: 50vw;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.pilihan{
+    background-color: #A0D683;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.pilihan:hover, .pilihan_panjang:hover{
+    background-color: #D3EE98;
+    cursor: pointer;
+}
+
+.pilihan_panjang{
+    padding: 5px;
+    background-color: #A0D683;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 15px;
+    justify-content: space-evenly;
+
+}
+
+.judul{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p.soalPanjang{
+    text-indent: 0.5in;
+}
+
+.hightlight {
+    background-color: #FEFF9F; /* Warna latar belakang untuk highlight */
+    color: black; /* Warna teks (opsional) */
+}
+
+.tombol {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+ul li a:hover{
+    background-color: rgb(43, 159, 226);
+}

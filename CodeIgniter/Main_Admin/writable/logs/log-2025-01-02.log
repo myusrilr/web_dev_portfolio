@@ -1,0 +1,631 @@
+INFO - 2025-01-02 03:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-02 03:10:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'karyawan', 3306, '', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Login->proses()
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Login->proses()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#11 {main}
+CRITICAL - 2025-01-02 03:10:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM users where email = \'daniar.rizki@leapsurabaya.sch.id\' and status = \'Aktif\';')
+ 3 APPPATH\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM users where email = \'daniar.rizki@leapsurabaya.sch.id\' and status = \'Aktif\';')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+ERROR - 2025-01-02 03:10:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'karyawan', 3306, '', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Login->proses()
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*)...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Login->proses()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#11 {main}
+CRITICAL - 2025-01-02 03:10:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as jml FROM users where email = \'daniar.rizki@leapsurabaya.sch.id\' and status = \'Aktif\';')
+ 3 APPPATH\Controllers\Login.php(27): App\Models\Mcustom->getAllQR('SELECT count(*) as jml FROM users where email = \'daniar.rizki@leapsurabaya.sch.id\' and status = \'Aktif\';')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-02 03:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-02 03:32:05 --> ErrorException: Undefined property: App\Controllers\Registrasiulang::$input
+[Method: POST, Route: registrasiulang/verifikasi_email]
+in APPPATH\Controllers\Registrasiulang.php on line 44.
+ 1 APPPATH\Controllers\Registrasiulang.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Registrasiulang::$input', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Registrasiulang.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+ERROR - 2025-01-02 03:36:30 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', Array)
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#13 {main}
+CRITICAL - 2025-01-02 03:36:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: registrasiulang/verifikasi_email]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:30 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+ERROR - 2025-01-02 03:36:34 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', Array)
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#13 {main}
+CRITICAL - 2025-01-02 03:36:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: registrasiulang/verifikasi_email]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:34 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+ERROR - 2025-01-02 03:36:54 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', Array)
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#13 {main}
+CRITICAL - 2025-01-02 03:36:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: registrasiulang/verifikasi_email]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:36:54 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = \'testCoding@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` = :email:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+ERROR - 2025-01-02 03:37:01 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', Array)
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#13 {main}
+CRITICAL - 2025-01-02 03:37:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: registrasiulang/verifikasi_email]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL', [], false)
+ 2 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:37:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL', [], false)
+ 4 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 03:37:01 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+WHERE `id` IS NULL
+AND `email` IS NULL', [], false)
+ 5 APPPATH\Models\Mcustom.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Registrasiulang.php(38): App\Models\Mcustom->get_by_id('siswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->verifikasi_email()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:38:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "testCoding@gmail.com"
+[Method: GET, Route: registrasiulang/register/testCoding@gmail.com]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('registrasiulang/register/testCoding@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('registrasiulang/register/testCoding@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:39:15 --> ArgumentCountError: Too few arguments to function App\Controllers\Registrasiulang::register(), 0 passed in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: registrasiulang/register]
+in APPPATH\Controllers\Registrasiulang.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:40:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+[Method: GET, Route: registrasiulang/register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Registrasiulang.php(60): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:41:52 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: registrasiulang/register]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(60): view('back/single_page/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:51:10 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: registrasiulang/register/RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(61): view('back/single_page/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register('RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:57:31 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: registrasiulang/register/RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(61): view('back/single_page/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register('RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:58:07 --> ErrorException: Attempt to read property "idsiswa" on null
+[Method: GET, Route: registrasiulang/register/RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idsiswa" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(61): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register('RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2025-01-02 04:58:25 --> ErrorException: Attempt to read property "idsiswa" on null
+[Method: GET, Route: registrasiulang/register/RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idsiswa" on null', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(61): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register('RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-02 04:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-02 05:05:14 --> ErrorException: Undefined variable $provinsi
+[Method: GET, Route: registrasiulang/register/RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09]
+in APPPATH\Views\back\single_page\register.php on line 340.
+ 1 APPPATH\Views\back\single_page\register.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provinsi', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php', 340)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(64): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->register('RjlldHY5ZktaOXBFWGFRZmdkY2FMZz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2025-01-02 06:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 06:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-02 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

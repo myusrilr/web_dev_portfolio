@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calendar</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Menghubungkan file CSS eksternal bernama style.css -->
+
+    <!-- Google Font Link for Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- Menghubungkan font Google yang digunakan untuk ikon (Material Symbols Rounded) -->
+
+    <script src="script.js" defer></script>
+    <!-- Menghubungkan file JavaScript eksternal bernama script.js dan menundanya hingga seluruh halaman dimuat -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form id="eventForm">
+                    <div class="form-group time-picker">
+                        <span class="material-symbols-rounded">Schedule</span>
+                        <select id="startTime">
+                            <!-- Start Time Options -->
+                        </select>
+                        <select id="startTimePeriod">
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                        <span> - </span>
+                        <select id="endTime">
+                            <!-- End Time Options -->
+                        </select>
+                        <select id="endTimePeriod">
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <label id="judul">Judul</label>
+                        <input type="text" id="eventTitle" placeholder="Judul Catatan" required />
+                    </div>
+        
+                    <div class="form-group">
+                        <label id="deskripsi">Deskripsi</label>
+                        <textarea id="eventDetails" placeholder="Isi Catatan" required></textarea>
+                    </div>
+        
+                    <button type="submit" id="saveBtn">Simpan</button>
+                    <button type="button" id="cancelBtn">Hapus</button>
+                </form>
+            </div>
+        </div>
+        
+        
+
+        <header>
+            <p class="current-date"></p>
+            <!-- Elemen paragraf untuk menampilkan tanggal saat ini, yang akan diisi secara dinamis melalui JavaScript -->
+
+            <div class="icons">
+                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                <!-- Span berisi ikon chevron_left, yang berfungsi sebagai tombol untuk beralih ke bulan sebelumnya -->
+
+                <span id="next" class="material-symbols-rounded">chevron_right</span>
+                <!-- Span berisi ikon chevron_right, yang berfungsi sebagai tombol untuk beralih ke bulan berikutnya -->
+            </div>
+        </header>
+
+        <div class="calendar">
+            <ul class="weeks">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+                <!-- Daftar singkat hari dalam seminggu yang akan ditampilkan di atas kalender -->
+            </ul>
+
+            <ul class="days">
+                <li>1</li>
+                <!-- Satu elemen list item yang digunakan sebagai placeholder untuk tanggal kalender, yang akan diisi melalui JavaScript -->
+            </ul>
+        </div>
+    </div>
+    <!-- Icon Kalender di pojok kanan bawah -->
+    <div class="calendar-icon">
+        <span class="material-symbols-rounded">event</span>
+    </div>
+
+</body>
+
+</html>

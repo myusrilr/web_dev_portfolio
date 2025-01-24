@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <script>
+         // cara 1
+         const laptop = {
+             merk: "acer",
+             harga: 10000000,
+             ram: 8,
+             prosesor: "intel core i7",
+             grafis: "nvidia 1060",
+             layar: "15.6 inch",}
+        // cara 2
+        const pasangan={};
+        pasangan.gender="female";
+        pasangan.skin_color="white";
+        pasangan.hair_color="black";
+        pasangan.height="160";
+        pasangan.weight="50";
+        pasangan.age="25";
+        pasangan.hobby="gaming";
+        pasangan.job="programmer";
+        pasangan.origin="Malang";
+
+        // cara 3
+        const husband=new Object();
+        husband.gender="male";
+        husband.skin_color="white";
+        husband.hair_color="black";
+        husband.height="170";
+        husband.weight="60";
+        husband.age="25";
+        husband.hobby="gaming";
+        husband.job="programmer";
+        husband.origin="Malang";
+
+        const introduce={
+            firstname: "Rizky",
+            lastname: "Fauzan",
+            id: 55555,
+            fullName: function(){
+                return this.firstname + " " + this.lastname;
+            }
+            
+        }
+
+        const mobil={
+            brand: "toyota",
+            year: "2019",
+            price: {
+                avanza:"239.000.000",
+                inova:"350.000.000",
+                ranger:"450.000.000",
+            }
+            
+        }
+
+        // looping
+         let myType="";
+
+         for(let data in pasangan){
+             myType+=pasangan[data]+" ";
+
+         }
+
+        //  obj to array
+        const pendamping=Object.values(pasangan);
+
+        // obj to array assosiatif
+        let myHusband="";
+        for(let[keyword,value] of Object.entries(husband)){
+            myHusband+=keyword+" : "+value+"<br>";
+        }
+        
+
+        document.write(myHusband);
+
+        // obj to string
+        let myLaptop=JSON.stringify(laptop);
+        document.write(myLaptop);
+
+
+
+    
+     </script>
+        
+
+</body>
+</html>

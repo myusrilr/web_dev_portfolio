@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonts</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container, .parent{
+        height: 500px;
+        width: 500px;
+        background-color: #f70a0a;
+        position: relative;
+        margin-bottom: 25px; 
+    }
+    .body-satu, .body-dua, .body-tiga, .body-empat,.body-lima, .child-satu, .child-dua, .child-tiga, .child-empat, .child-lima{
+        height: 20%;
+        width: 20%;
+        background-color: black;
+        position: absolute;
+    }
+    .body-dua,.child-dua{
+        left: 80%;
+    }
+    .body-tiga,.child-tiga{
+        top: 80%;
+    }
+    .body-empat,.child-empat{
+        top: 40%;
+        left: 40%;
+    }
+    .body-lima,.child-lima{
+        top: 80%;
+        left: 80%;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="body-satu"></div>
+        <div class="body-dua"></div>
+        <div class="body-tiga"></div>
+        <div class="body-empat"></div>
+        <div class="body-lima"></div>
+    </div>
+    <div class="parent">
+        <div class="child-satu"></div>
+        <div class="child-dua"></div>
+        <div class="child-tiga"></div>
+        <div class="child-empat"></div>
+        <div class="child-lima"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Input Form with Execution</title>
+    <style>
+        h2 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin: 10px 0;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* Style untuk area hasil output */
+        #result {
+            width: 100%;
+            height: 150px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        #textbox input {
+            width: 100%;
+            height: 50px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Multiple input yang bisa mengeksekusi semua input dengan baris yang berbeda</h2>
+
+
+    <div class="form-group">
+        <!-- Input Teks -->
+        <div id="textbox">
+            <label for="textInput">Masukkan Teks:</label>
+            <input type="text" id="textInput" placeholder="Tulis sesuatu...">
+        </div>
+
+        <!-- Input Dropdown -->
+        <div class="dropdown">
+            <label>Pilih Opsi:</label>
+            <br>
+            <select id="dropdown">
+                <option value="">Pilih salah satu</option>
+                <option value="Muhammad">Muhammad</option>
+                <option value="Yusril">Yusril</option>
+                <option value="Romadhoni">Romadhoni</option>
+            </select>
+        </div>
+
+        <!-- Input Checkbox -->
+        <div id="checkbox">
+            <label>Pilih Opsi: (bisa lebih dari satu)</label><br>
+            <!-- jika idnya atau namenya berbeda maka bisa memilih lebih dari opsi -->
+            <input type="checkbox" id="option1" value="Vino"> Vino <br>
+            <input type="checkbox" id="option2" value="Hamaz"> Hamaz <br>
+            <input type="checkbox" id="option3" value="Alif"> Alif
+        </div>
+
+        <!-- Input Radiobox -->
+        <div id="radiobox">
+            <label>Pilih Salah Satu:</label><br>
+            <input type="radio" name="options" value="yuhu"> Yasin <br>
+            <input type="radio" name="options" value="Umri"> Umri <br>
+            <input type="radio" name="options" value="Rafli"> Rafli
+        </div>
+    </div>
+
+    <!-- Tombol untuk Mengumpulkan Data -->
+    <button id="submitBtn">Kirim</button>
+
+    <!-- Textarea untuk menampilkan hasil -->
+    <textarea id="result" placeholder="Hasil akan muncul di sini..." readonly></textarea>
+
+    <script>
+        // Fungsi untuk menangkap semua input ketika tombol 'Kirim' diklik
+        document.getElementById('submitBtn').addEventListener('click', function () {
+            // Ambil referensi ke textarea
+            let resultTextarea = document.getElementById('result');
+
+            // Reset isi textarea
+            resultTextarea.value = '';
+
+            // Menampilkan nilai dari input teks
+            let textInput = document.getElementById('textInput').value;
+            resultTextarea.value += `${textInput}\n`;
+
+            // Menampilkan nilai dari dropdown
+            let dropdownValue = document.getElementById('dropdown').value;
+            resultTextarea.value += `${dropdownValue}\n`;
+
+            // Menampilkan nilai dari checkbox
+            let checkboxes = document.querySelectorAll('#checkbox input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    resultTextarea.value += `${checkbox.value}\n`;
+                }
+            });
+
+            // menampilkan nilai dari radiobox
+            let radioValue = document.querySelector('input[name="options"]:checked') ?
+                document.querySelector('input[name="options"]:checked').value : '';
+            if (radioValue) {
+                resultTextarea.value += `${radioValue}\n`;
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

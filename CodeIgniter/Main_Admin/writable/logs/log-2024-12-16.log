@@ -1,0 +1,936 @@
+INFO - 2024-12-16 02:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 02:13:54 --> ErrorException: Undefined property: stdClass::$nama
+[Method: GET, Route: calonsiswa/ajaxcalon/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 358.
+ 1 APPPATH\Controllers\Calonsiswa.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp\\htdocs\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 358)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 02:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 02:35:53 --> ErrorException: Undefined property: stdClass::$tlp
+[Method: GET, Route: calonsiswa/ajaxcalon/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 371.
+ 1 APPPATH\Controllers\Calonsiswa.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tlp', 'C:\\xampp\\htdocs\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 02:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 02:36:15 --> ErrorException: Undefined property: stdClass::$tlp
+[Method: GET, Route: calonsiswa/ajaxcalon/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 371.
+ 1 APPPATH\Controllers\Calonsiswa.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tlp', 'C:\\xampp\\htdocs\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 02:36:26 --> ErrorException: Undefined property: stdClass::$tlp
+[Method: GET, Route: calonsiswa/ajaxcalon/K00001]
+in APPPATH\Controllers\Calonsiswa.php on line 371.
+ 1 APPPATH\Controllers\Calonsiswa.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tlp', 'C:\\xampp\\htdocs\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 02:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 02:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:55:34 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:55:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:55:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:55:34 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:56:35 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:56:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:35 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:56:40 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:56:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:40 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:56:43 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:56:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:43 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:56:59 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:56:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:56:59 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:57:00 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:00 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:57:00 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:00 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:57:01 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:57:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:01 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 05:57:01 --> mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist in C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('select count(*)...', 0)
+#1 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*)...')
+#2 C:\xampp\htdocs\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#3 C:\xampp\htdocs\leapsiswa\app\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#4 C:\xampp\htdocs\leapsiswa\app\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*)...')
+#5 C:\xampp\htdocs\leapsiswa\system\View\View.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\leapsiswa\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\leapsiswa\system\Common.php(1169): CodeIgniter\View\View->render('back/akademik/c...', Array, true)
+#8 C:\xampp\htdocs\leapsiswa\app\Controllers\Calonsiswa.php(61): view('back/akademik/c...')
+#9 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+#10 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#11 C:\xampp\htdocs\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\leapsiswa\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-12-16 05:57:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+[Method: GET, Route: calonsiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 6 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 8 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 05:57:01 --> [Caused by] mysqli_sql_exception: Table 'karyawan.form_kids' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 4 APPPATH\Models\Mcustom.php(21): CodeIgniter\Database\BaseConnection->query('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 5 APPPATH\Views\back\akademik\calon_siswa\index.php(181): App\Models\Mcustom->getAllQR('select count(*) as jml from form_kids where idpendkursus = \'K00001\';')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\leapsiswa\\app\\Views\\back\\akademik\\calon_siswa\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/akademik/calon_siswa/index', [], true)
+ 9 APPPATH\Controllers\Calonsiswa.php(61): view('back/akademik/calon_siswa/index')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 05:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 05:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 07:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 07:47:47 --> ErrorException: Undefined property: stdClass::$phone
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone', 'C:\\xampp\\htdocs\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:04:13 --> ErrorException: Undefined property: stdClass::$phone
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 15:04:24 --> mysqli_sql_exception: Unknown column 'phone' in 'field list' in F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idcalon,...', 0)
+#1 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idcalon,...')
+#2 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idcalon,...')
+#3 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idcalon,...')
+#4 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\app\Controllers\Calonsiswa.php(354): App\Models\Mcustom->getAllQ('SELECT idcalon,...')
+#5 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00002')
+#6 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+#7 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 F:\1_WEB DEV_RGI 31\Internship\Task\leapsiswa\system\rewrite.php(44): require_once('F:\\1_WEB DEV_RG...')
+#12 {main}
+CRITICAL - 2024-12-16 15:04:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'phone' in 'field list'
+[Method: GET, Route: calonsiswa/ajaxcalon/K00002]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 2 APPPATH\Controllers\Calonsiswa.php(354): App\Models\Mcustom->getAllQ('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00002')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 15:04:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'phone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 4 APPPATH\Controllers\Calonsiswa.php(354): App\Models\Mcustom->getAllQ('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00002')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+CRITICAL - 2024-12-16 15:04:24 --> [Caused by] mysqli_sql_exception: Unknown column 'phone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 5 APPPATH\Controllers\Calonsiswa.php(354): App\Models\Mcustom->getAllQ('SELECT idcalon, fullName, phone, email, status FROM form_calon where idpendkursus = \'K00002\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxcalon('K00002')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:04:33 --> ErrorException: Undefined property: stdClass::$phone
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:04:47 --> ErrorException: Undefined property: stdClass::$phone
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:06:32 --> ErrorException: Undefined property: stdClass::$phone11
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone11', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:06:43 --> ErrorException: Undefined property: stdClass::$phone11
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone11', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 15:06:55 --> ErrorException: Undefined property: stdClass::$phone11
+[Method: GET, Route: calonsiswa/ajaxlist/all]
+in APPPATH\Controllers\Calonsiswa.php on line 95.
+ 1 APPPATH\Controllers\Calonsiswa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$phone11', 'F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\app\\Controllers\\Calonsiswa.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswa->ajaxlist('all')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\1_WEB DEV_RGI 31\\Internship\\Task\\leapsiswa\\public\\index.php')
+INFO - 2024-12-16 15:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 15:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

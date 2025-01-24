@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      text-align: center;
+    }
+    .satu {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      flex: 50%;
+    }
+    .dua {
+      background-color: red;
+      color: white;
+      padding: 10px;
+      flex: 50%;
+    }
+    .tiga {
+      background-color: purple;
+      color: white;
+      padding: 10px;
+      flex: 50%;
+    }
+    .empat {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      flex: 50%;
+    }
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 300px) {
+        .container {
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="satu">1</div>
+      <div class="dua">2</div>
+      <div class="tiga">3</div>
+      <div class="empat">4</div>
+    </div>
+  </body>
+</html>

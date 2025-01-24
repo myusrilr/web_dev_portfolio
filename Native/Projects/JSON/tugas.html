@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <input type="text" placeholder="item" id="inItem">
+        </tr>
+    </table>
+    <script>
+        const stock={
+            "minuman":[
+                { "Nama":"Teh Pucuk", "Jumlah":100, "Harga":3500},
+                { "Nama":"Aqua", "Jumlah":90, "Harga":3000},
+                { "Nama":"Sprite", "Jumlah":30, "Harga":5000},
+                { "Nama":"Indomilk", "Jumlah":70, "Harga":20000},
+                { "Nama":"Kratindeng", "Jumlah":50, "Harga":8000},
+                { "Nama":"C1000", "Jumlah":100, "Harga":5500},
+                { "Nama":"Hilo", "Jumlah":100, "Harga":7500},
+                { "Nama":"LeMineral", "Jumlah":40, "Harga":4500},
+                { "Nama":"Kopiko", "Jumlah":77, "Harga":6500},
+                { "Nama":"Teh Ichi", "Jumlah":100, "Harga":3000},
+            ],
+        }
+        for(let i=0; i<stock.minuman.length; i++){
+        document.write(stock.minuman[i].Nama);
+        document.write("<br>");}
+
+    </script>
+</body>
+</html>

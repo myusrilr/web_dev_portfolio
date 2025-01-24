@@ -1,0 +1,165 @@
+<?php
+namespace App\Controllers;
+
+use App\Models\Mcustom;
+use App\Libraries\Modul;
+
+class Isuinfrastrukturs extends BaseController {
+    
+    private $model;
+    private $modul;
+    
+    public function __construct() {
+        $this->model = new Mcustom();
+        $this->modul= new Modul();
+    }
+    
+    public function index(){
+        if(session()->get("logged_it")){
+            $data['idusers'] = session()->get("idusers");
+            $data['nama'] = session()->get("nama");
+            $data['role'] = session()->get("role");
+            $data['nm_role'] = session()->get("nama_role");
+            
+            $data['model'] = $this->model;
+            // membaca profile orang tersebut
+            $data['pro'] = $this->model->getAllQR("SELECT * FROM users where idusers = '".session()->get("idusers")."';");
+            
+            $data['status'] = $this->model->getAllQR("SELECT setuju FROM keluar where idusers = '".session()->get("idusers")."';")->setuju;
+            $data['menu'] = $this->request->getUri()->getSegment(1);
+            $data['kategori'] = $this->model->getAllQ("SELECT * from sopkategori;");
+            
+            // membaca foto profile
+            $def_foto = base_url().'/images/noimg.jpg';
+            $foto = $this->model->getAllQR("select foto from users where idusers = '".session()->get("idusers")."';")->foto;
+            if(strlen($foto) > 0){
+                if(file_exists($this->modul->getPathApp().$foto)){
+                    $def_foto = base_url().'/uploads/'.$foto;
+                }
+            }
+            $data['foto_profile'] = $def_foto;
+    
+            $data['wa'] = $this->model->getAllQR("select wa from nowag limit 1")->wa;
+
+            echo view('back/head', $data);
+            echo view('back/it/menu');
+            echo view('back/it/isu/index');
+            echo view('back/foot');
+        }else{
+            $this->modul->halaman('login');
+        }
+    }
+    
+    public function ajaxlist() {
+        if(session()->get("logged_it")){
+            $data = array();
+            $no = 1;            
+            $list = $this->model->getAllQ("select * from problem order by created_at desc;");
+            foreach ($list->getResult() as $row) {
+                $val = array();
+                $val[] = $no;
+                $val[] = date('d M Y',strtotime($row->created_at));
+                $val[] = $this->model->getAllQR("select nama from users where idusers = '".$row->idusers."'")->nama;
+                $val[] = $row->keterangan;
+                if($row->status == "Proses"){
+                    if($row->catatan != ''){
+                        $val[] = '<span class="badge badge-info">'.$row->status.'</span><br>Catatan : '.$row->catatan;
+                    }else{
+                        $val[] = '<span class="badge badge-info">'.$row->status.'</span>';
+                    }
+                    $val[] = '<div style="text-align: center;">'
+                    .'<button type="button" class="btn btn-sm btn-info btn-fw" onclick="add('."'".$row->idproblem."'".')"><i class="fas fa-check"></i></button>'
+                    . '</div>';
+                }else if($row->status == "Terselesaikan"){
+                    if($row->catatan != ''){
+                        $val[] = '<span class="badge badge-success">'.$row->status.'</span><br>Catatan : '.$row->catatan;
+                    }else{
+                        $val[] = '<span class="badge badge-success">'.$row->status.'</span>';
+                    }
+                    $val[] = 'Tgl : '.date("d M Y",strtotime($row->solved_at));
+                }else{
+                    $val[] = '<span class="badge badge-secondary">'.$row->status.'</span>';
+                    $val[] = '<div style="text-align: center;">'
+                    .'<button type="button" class="btn btn-sm btn-info btn-fw" onclick="add('."'".$row->idproblem."'".')"><i class="fas fa-check"></i></button>'
+                    . '</div>';
+                }
+                
+                $data[] = $val;
+                
+                $no++;
+            }
+            $output = array("data" => $data);
+            echo json_encode($output);
+        }else{
+            $this->modul->halaman('login');
+        }
+    }
+
+    public function submitnote() {
+        if(session()->get("logged_it")){
+            $status = $this->request->getPost('status');
+            if($status == 'Terselesaikan'){
+                $datap = array(
+                    'status' => $status,
+                    'catatan' => $this->request->getPost('note'),
+                    'solved_at' => date("Y-m-d")
+                );
+            }else{
+                $datap = array(
+                    'status' => $status,
+                    'catatan' => $this->request->getPost('note'),
+                );
+            }
+            $kond['idproblem'] = $this->request->getPost('kode');
+            $update = $this->model->update("problem",$datap, $kond);
+            if($update == 1){
+                $status = "Data Tersimpan";
+            }else{    
+                $status = "Data gagal tersimpan";
+            }
+            $q = $this->model->getAllQR("select * from problem where idproblem = '".$this->request->getPost('kode')."'");
+            $n = $this->model->getAllQR("select wa from users where idusers = '".$q->idusers."';")->wa;
+            $no = str_replace("-", "", $n);
+            $nomor = substr_replace($no,'62',0,1);
+            // $no = $this->model->getAllQR("select wa from nowag limit 1")->wa;
+            // $nomor = substr_replace($no,'62',0,1);
+            // $q = $this->model->getAllQR("select * from problem where idproblem = '".$this->request->getPost('kode')."'");
+            if($q->status == 'Terselesaikan'){
+                $pesan = '*SOLVED ('.date("d M Y",strtotime($q->solved_at)).')*'.urlencode("\n").'*Tanggal :* '.date("d M Y",strtotime($q->created_at)).urlencode("\n").'*Masalah Infrastruktur* : '.$q->keterangan;
+            }else{
+                $pesan = '*PROSES*'.urlencode("\n").'*Tanggal* : '.date("d M Y",strtotime($q->created_at)).urlencode("\n").'*Masalah Infrastruktur* : '.$q->keterangan;
+            }
+            echo json_encode(array("status" => $status, "nomor" => $nomor, "pesan" => $pesan));
+        }else{
+            $this->modul->halaman('login');
+        }
+    }
+    
+    public function ganti(){
+        if(session()->get("logged_it")){
+            $kondisi['idsurat'] = $this->request->getUri()->getSegment(3);
+            $data = $this->model->get_by_id("suratkeluar", $kondisi);
+            echo json_encode($data);
+        }else{
+            $this->modul->halaman('login');
+        }
+    }
+
+    public function proses() {
+        if(session()->get("logged_it")){
+            $data = array(
+                'wa' => $this->request->getPost('nomor'),
+            );
+            $update = $this->model->updateNK("nowag", $data);
+            if($update == 1){
+                $status = "Nomor WAG terupdate";
+            }else{
+                $status = "Nomor WAG gagal terupdate";
+            }
+            echo json_encode(array("status" => $status));
+        }else{
+            $this->modul->halaman('login');
+        }
+    }
+    
+}

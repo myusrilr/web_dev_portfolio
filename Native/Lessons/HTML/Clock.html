@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #clock{
+        font-size: 48px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div id="clock">00:00:00</div>
+    <script>
+        const clock=document.getElementById("clock");
+        setInterval(showClock,1000);
+
+        function showClock(){
+            let time=new Date();
+        let jam=time.getHours();
+        let menit=time.getMinutes();
+        let detik=time.getSeconds();
+        if(detik<10){
+            detik="0"+detik;
+        }
+        if(menit<10){
+            menit="0"+menit;
+        }
+        if(jam<10){
+            jam="0"+jam;
+        }
+        let waktu_sekarang=jam+":"+menit+":"+detik;
+
+        clock.innerHTML=waktu_sekarang;
+        }
+        
+    </script>
+</body>
+</html>

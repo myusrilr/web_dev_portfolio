@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator {
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hasil {
+    width: 265px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button,.hpp, .hj, .percent{
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #fdfd;
+}
+
+.button:hover, .hpp:hover {
+    box-shadow: 0px 1px 3px black;
+}
+
+.margin {
+    height: 50px;
+    width: 60px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #fdfd;
+}
+
+.hpp:hover {
+    background: green;
+    color: white;
+}
+
+.hj:hover{
+    background: red;
+    color: white;
+}
+.margin:hover{
+    background: yellow;
+}
+.percent:hover{
+    background: orange;
+    color: white;
+}
+

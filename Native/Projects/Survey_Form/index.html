@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Halaman 1: Data Diri -->
+        <div class="form-page" id="page-1">
+            <h2>Data Diri</h2>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="phone">Nomor HP:</label>
+            <input type="tel" id="phone" required>
+            <div class="navigation">
+                <button class="next" onclick="nextPage(1)">Selanjutnya</button>
+            </div>
+        </div>
+
+        <!-- Halaman 2-4: Pertanyaan Kepuasan -->
+        <div class="form-page" id="page-2">
+            <h2>PENILAIAN TERHADAP APARATUR SIPIL NEGARA</h2>
+            <div class="questions">
+                <table class="survey-table">
+                    <tr>
+                        <th>Pertanyaan</th>
+                        <th>Sangat Puas</th>
+                        <th>Puas</th>
+                        <th>Kurang Puas</th>
+                        <th>Tidak Puas</th>
+                        <th>Sangat Tidak Puas</th>
+                    </tr>
+                    <tr>
+                        <td>Keramahan, kesopanan dan sikap dalam pelayanan</td>
+                        <td><input type="radio" name="q1" value="100" required></td>
+                        <td><input type="radio" name="q1" value="80" required></td>
+                        <td><input type="radio" name="q1" value="50" required></td>
+                        <td><input type="radio" name="q1" value="35" required></td>
+                        <td><input type="radio" name="q1" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Penampilan dan kerapian berpakaian</td>
+                        <td><input type="radio" name="q2" value="100" required></td>
+                        <td><input type="radio" name="q2" value="80" required></td>
+                        <td><input type="radio" name="q2" value="50" required></td>
+                        <td><input type="radio" name="q2" value="35" required></td>
+                        <td><input type="radio" name="q2" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Respon/kecepatan dalam pelayanan</td>
+                        <td><input type="radio" name="q3" value="100" required></td>
+                        <td><input type="radio" name="q3" value="80" required></td>
+                        <td><input type="radio" name="q3" value="50" required></td>
+                        <td><input type="radio" name="q3" value="35" required></td>
+                        <td><input type="radio" name="q3" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Inisiatif dalam membantu</td>
+                        <td><input type="radio" name="q4" value="100" required></td>
+                        <td><input type="radio" name="q4" value="80" required></td>
+                        <td><input type="radio" name="q4" value="50" required></td>
+                        <td><input type="radio" name="q4" value="35" required></td>
+                        <td><input type="radio" name="q4" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Penguasaan terhadap materi dalam konsultasi</td>
+                        <td><input type="radio" name="q5" value="100" required></td>
+                        <td><input type="radio" name="q5" value="80" required></td>
+                        <td><input type="radio" name="q5" value="50" required></td>
+                        <td><input type="radio" name="q5" value="35" required></td>
+                        <td><input type="radio" name="q5" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kualitas layanan secara keseluruhan dalam menunjang kelancaran aktivitas tugas / pekerjaan</td>
+                        <td><input type="radio" name="q6" value="100" required></td>
+                        <td><input type="radio" name="q6" value="80" required></td>
+                        <td><input type="radio" name="q6" value="50" required></td>
+                        <td><input type="radio" name="q6" value="35" required></td>
+                        <td><input type="radio" name="q6" value="0" required></td>
+                    </tr>
+                </table>
+            </div>
+        
+            <div class="navigation">
+                <button class="prev" onclick="prevPage(1)">Sebelumnya</button>
+                <button class="next" onclick="nextPage(2)">Selanjutnya</button>
+            </div>
+        </div>
+        
+        <div class="form-page" id="page-3">
+            <h2>PENILAIAN TERHADAP SARANA DAN PRASARANA</h2>
+            <div class="questions">
+                <table class="survey-table">
+                    <tr>
+                        <th>Pertanyaan</th>
+                        <th>Sangat Puas</th>
+                        <th>Puas</th>
+                        <th>Kurang Puas</th>
+                        <th>Tidak Puas</th>
+                        <th>Sangat Tidak Puas</th>
+                    </tr>
+                    <tr>
+                        <td>Tempat Parkir</td>
+                        <td><input type="radio" name="q1" value="100" required></td>
+                        <td><input type="radio" name="q1" value="80" required></td>
+                        <td><input type="radio" name="q1" value="50" required></td>
+                        <td><input type="radio" name="q1" value="35" required></td>
+                        <td><input type="radio" name="q1" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Ruang Tunggu/Resepsionis</td>
+                        <td><input type="radio" name="q2" value="100" required></td>
+                        <td><input type="radio" name="q2" value="80" required></td>
+                        <td><input type="radio" name="q2" value="50" required></td>
+                        <td><input type="radio" name="q2" value="35" required></td>
+                        <td><input type="radio" name="q2" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kenyamanan ruang konsultasi</td>
+                        <td><input type="radio" name="q3" value="100" required></td>
+                        <td><input type="radio" name="q3" value="80" required></td>
+                        <td><input type="radio" name="q3" value="50" required></td>
+                        <td><input type="radio" name="q3" value="35" required></td>
+                        <td><input type="radio" name="q3" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kebersihan ruang konsultasi</td>
+                        <td><input type="radio" name="q4" value="100" required></td>
+                        <td><input type="radio" name="q4" value="80" required></td>
+                        <td><input type="radio" name="q4" value="50" required></td>
+                        <td><input type="radio" name="q4" value="35" required></td>
+                        <td><input type="radio" name="q4" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Keamanan di sekitar lingkungan</td>
+                        <td><input type="radio" name="q5" value="100" required></td>
+                        <td><input type="radio" name="q5" value="80" required></td>
+                        <td><input type="radio" name="q5" value="50" required></td>
+                        <td><input type="radio" name="q5" value="35" required></td>
+                        <td><input type="radio" name="q5" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kebersihan toilet / WC</td>
+                        <td><input type="radio" name="q6" value="100" required></td>
+                        <td><input type="radio" name="q6" value="80" required></td>
+                        <td><input type="radio" name="q6" value="50" required></td>
+                        <td><input type="radio" name="q6" value="35" required></td>
+                        <td><input type="radio" name="q6" value="0" required></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="navigation">
+                <button class="prev" onclick="prevPage(2)">Sebelumnya</button>
+                <button class="next" onclick="nextPage(3)">Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class="form-page" id="page-4">
+            <h2>PENILAIAN TERHADAP APLIKASI YANG DIGUNAKAN (SIMREDA)</h2>
+            <div class="questions">
+                <table class="survey-table">
+                    <tr>
+                        <th>Pertanyaan</th>
+                        <th>Sangat Puas</th>
+                        <th>Puas</th>
+                        <th>Kurang Puas</th>
+                        <th>Tidak Puas</th>
+                        <th>Sangat Tidak Puas</th>
+                    </tr>
+                    <tr>
+                        <td>Tampilan menu aplikasI</td>
+                        <td><input type="radio" name="q1" value="100" required></td>
+                        <td><input type="radio" name="q1" value="80" required></td>
+                        <td><input type="radio" name="q1" value="50" required></td>
+                        <td><input type="radio" name="q1" value="35" required></td>
+                        <td><input type="radio" name="q1" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kemudahan penggunaan aplikasi (user friendly)</td>
+                        <td><input type="radio" name="q2" value="100" required></td>
+                        <td><input type="radio" name="q2" value="80" required></td>
+                        <td><input type="radio" name="q2" value="50" required></td>
+                        <td><input type="radio" name="q2" value="35" required></td>
+                        <td><input type="radio" name="q2" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kestabilan dan ketahanan aplikasi</td>
+                        <td><input type="radio" name="q3" value="100" required></td>
+                        <td><input type="radio" name="q3" value="80" required></td>
+                        <td><input type="radio" name="q3" value="50" required></td>
+                        <td><input type="radio" name="q3" value="35" required></td>
+                        <td><input type="radio" name="q3" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tingkat akurasi atau ketepatan data dari laporan yg dihasilkan</td>
+                        <td><input type="radio" name="q4" value="100" required></td>
+                        <td><input type="radio" name="q4" value="80" required></td>
+                        <td><input type="radio" name="q4" value="50" required></td>
+                        <td><input type="radio" name="q4" value="35" required></td>
+                        <td><input type="radio" name="q4" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kemampuan aplikasi dalam membantu tugas / pekerjaan</td>
+                        <td><input type="radio" name="q5" value="100" required></td>
+                        <td><input type="radio" name="q5" value="80" required></td>
+                        <td><input type="radio" name="q5" value="50" required></td>
+                        <td><input type="radio" name="q5" value="35" required></td>
+                        <td><input type="radio" name="q5" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tingkat keamanan database pada aplikasI</td>
+                        <td><input type="radio" name="q6" value="100" required></td>
+                        <td><input type="radio" name="q6" value="80" required></td>
+                        <td><input type="radio" name="q6" value="50" required></td>
+                        <td><input type="radio" name="q6" value="35" required></td>
+                        <td><input type="radio" name="q6" value="0" required></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="navigation">
+                <button class="prev" onclick="prevPage(3)">Sebelumnya</button>
+                <button class="next" onclick="nextPage(4)">Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class="form-page" id="page-5">
+            <h2>PENILAIAN TERHADAP PRODUK PRODUK PERENCANAAN (RPJPD, RPJMD, RKPD)</h2>
+            <div class="questions">
+                <table class="survey-table">
+                    <tr>
+                        <th>Pertanyaan</th>
+                        <th>Sangat Puas</th>
+                        <th>Puas</th>
+                        <th>Kurang Puas</th>
+                        <th>Tidak Puas</th>
+                        <th>Sangat Tidak Puas</th>
+                    </tr>
+                    <tr>
+                        <td>Sosialisasi jadwal perencanaan</td>
+                        <td><input type="radio" name="q1" value="100" required></td>
+                        <td><input type="radio" name="q1" value="80" required></td>
+                        <td><input type="radio" name="q1" value="50" required></td>
+                        <td><input type="radio" name="q1" value="35" required></td>
+                        <td><input type="radio" name="q1" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Pemahaman personil Bappeda terhadap perencanaan</td>
+                        <td><input type="radio" name="q2" value="100" required></td>
+                        <td><input type="radio" name="q2" value="80" required></td>
+                        <td><input type="radio" name="q2" value="50" required></td>
+                        <td><input type="radio" name="q2" value="35" required></td>
+                        <td><input type="radio" name="q2" value="0" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kecukupan waktu dalam penyusunan rencana</td>
+                        <td><input type="radio" name="q3" value="100" required></td>
+                        <td><input type="radio" name="q3" value="80" required></td>
+                        <td><input type="radio" name="q3" value="50" required></td>
+                        <td><input type="radio" name="q3" value="35" required></td>
+                        <td><input type="radio" name="q3" value="0" required></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="navigation">
+                <button class="prev" onclick="prevPage(4)">Sebelumnya</button>
+                <button class="next" onclick="nextPage(5)">Selanjutnya</button>
+            </div>
+        </div>
+
+        <!-- Halaman 6: Kritik dan Saran -->
+        <div class="form-page" id="page-6">
+            <h2>Kritik dan Saran</h2>
+            <label for="feedback">Masukkan Kritik dan Saran:</label>
+            <textarea id="feedback" required></textarea>
+            <div class="navigation">
+                <button class="prev" onclick="prevPage(5)">Sebelumnya</button>
+                <button class="submit" onclick="submitForm()">Kirim</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-Up -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Hasil Survey</h2>
+            <p id="modal-content"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

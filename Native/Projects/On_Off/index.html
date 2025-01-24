@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="OFFbulb.jpg" alt="off lamp" id="lampu" onclick="saklar()">
+    <script>
+        function saklar(){
+            let image=document.getElementById("lampu");
+            if(image.src.match("ONbulb.jpg")){
+                image.src="OFFbulb.jpg";
+            }else{
+                image.src="ONbulb.jpg";
+            }
+        }
+    </script>
+</body>
+</html>

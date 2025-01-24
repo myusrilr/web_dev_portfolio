@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Karakter Pelarian
+      // Karena string harus ditulis dalam tanda kutip, JavaScript akan salah memahami string ini:
+
+      // let text1 = "We are the so-called "Vikings" from the north.";
+      // document.write(text1);
+      // Tali tersebut akan dipotong menjadi "Kami adalah apa yang disebut".
+
+      // Untuk mengatasi masalah ini, Anda dapat menggunakan karakter escape garis miring terbalik .
+
+      // Karakter escape garis miring terbalik ( \) mengubah karakter khusus menjadi karakter string:
+      //       \"   =   "   =   Double quote
+      //       \\   =   \   =   Backslash
+      let text2 = 'We are the so-called "Vikings" from the north.';
+      let text3 = "It's alright.";
+      let text4 = "The character \\ is called backslash.";
+      document.write(text2 + "<br>" + text3 + "<br>" + text4);
+
+      //   Enam urutan escape lainnya berlaku dalam JavaScript:
+      //       \b   =   Backspace
+      //       \f   =   Form Feed
+      //       \n   =   New Line
+      //       \r   =   Carriage Return
+      //       \t   =   Horizontal Tabulator
+      //       \v   =   Vertical Tabulator
+    </script>
+  </body>
+</html>

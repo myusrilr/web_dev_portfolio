@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    div {
+        width: fit-content;
+        text-align: center;
+        padding: 10px;
+    }
+
+    input {
+        width: 100px;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td><input type="text" placeholder="item" id="inItem" /></td>
+                <td><input type="number" placeholder="qty" id="qty" /></td>
+            </tr>
+        </table>
+        <td><button id="btnInput">INPUT</button></td>
+        <p id="invoice"></p>
+        <p id="totalBayar"></p>
+        <table>
+            <tr>
+                Rp <input type="number" placeholder="payment" id="money" />
+            </tr>
+        </table>
+        <button id="pay">BAYAR</button>
+        <button id="cancelPayment">CANCEL</button>
+    </div>
+    <p id="pay_history"></p>
+
+    <script>
+        const stock = {
+            minuman: [
+                { nama: "Teh Pucuk", jumlah: 100, harga: 3500 },
+                { nama: "Aqua", jumlah: 90, harga: 3000 },
+                { nama: "Sprite", jumlah: 30, harga: 5000 },
+                { nama: "Indomilk", jumlah: 70, harga: 20000 },
+                { nama: "Kratindeng", jumlah: 50, harga: 8000 },
+                { nama: "C1000", jumlah: 100, harga: 5500 },
+                { nama: "Hilo", jumlah: 100, harga: 7500 },
+                { nama: "LeMineral", jumlah: 100, harga: 4500 },
+                { nama: "Kopiku", jumlah: 77, harga: 6500 },
+                { nama: "Teh Ichi", jumlah: 100, harga: 3000 },
+            ],
+        };
+        const btnInput = document.getElementById("btnInput");
+        const btnpay = document.getElementById("pay");
+        const item = document.getElementById("inItem");
+        const qty = document.getElementById("qty");
+        const invoice = document.getElementById("invoice");
+        const totalBayar = document.getElementById("totalBayar");
+        let bayar = 0;
+        const payment = document.getElementById("payment");
+        const money = document.getElementById("money");
+        const payHistory = document.getElementById("pay_history");
+        const cancelPayment = document.getElementById("cancelPayment");
+
+
+
+
+
+        btnInput.addEventListener("click", function () {
+            var input_val = item.value;
+            var qty_val = qty.value;
+            const cart = new Array();
+            const total = 0;
+            var flag = false;
+
+            for (let i = 0; i < 10; i++) {
+                if (input_val == stock.minuman[i].nama) {
+                    if (qty_val <= stock.minuman[i].jumlah) {
+                        cart[i] = {
+                            product: input_val,
+                            quantity: qty_val,
+                            price: stock.minuman[i].harga,
+                            totalPrice: qty_val * stock.minuman[i].harga,
+                        };
+                        item.value = "";
+                        qty.value = "";
+                        invoice.innerHTML += cart[i].product + " : " + cart[i].price + " x " + cart[i].quantity + " = Rp " + cart[i].totalPrice + "<br>";
+                        bayar += cart[i].totalPrice;
+                        totalBayar.innerHTML = "Rp" + bayar;
+                        break;
+                    } else {
+                        // untuk jumlah yang diminta lebih dari stock
+                        window.alert("insufficient stock item");
+                    }
+                }
+            }
+        });
+
+        btnpay.addEventListener("click", function () {
+            if (money.value < bayar) {
+                window.alert("insufficient payment");
+            } else {
+                var change = money.value - bayar;
+                payHistory.innerHTML = "Total Payment : Rp" + bayar + "<br>" +
+                    "Uang          : Rp" + money.value + "<br>" +
+                    "Change        : Rp" + change + "<br>" +
+                    "Thank you for your purchase";
+            }
+        })
+
+        btnInput.addEventListener("click", function () {
+            var input_val = item.value;
+            var qty_val = qty.value;
+            const cart = new Array();
+            const total = 0;
+            var flag = false;
+
+            for (let i = 0; i < 10; i++) {
+                if (input_val == stock.minuman[i].nama) {
+                    if (qty_val <= stock.minuman[i].jumlah) {
+                        cart[i] = {
+                            product: input_val,
+                            quantity: qty_val,
+                            price: stock.minuman[i].harga,
+                            totalPrice: qty_val * stock.minuman[i].harga,
+                        };
+                        item.value = "";
+                        qty.value = "";
+                        invoice.innerHTML += cart[i].product + " : " + cart[i].price + " x " + cart[i].quantity + " = Rp " + cart[i].totalPrice + "<br>";
+                        bayar += cart[i].totalPrice;
+                        totalBayar.innerHTML = "Rp" + bayar;
+
+                        stock.minuman[i].jumlah -= qty_val;
+
+                        break;
+                    } else {
+                        window.alert("insufficient stock item");
+                    }
+                }
+            }
+        });
+        cancelPayment.addEventListener("click", function () {
+            item.value = "";
+            qty.value = "";
+            money.value = "";
+            bayar = 0;
+            invoice.innerHTML = "";
+            payHistory.innerHTML = "";
+            totalBayar.innerHTML = "";
+            cart = [];
+            cart.length = 0;
+            total = 0;
+
+            window.alert("Payment Cancelled");
+            while (cart.length > 0) {
+                cart.splice(0, 1);
+            }
+        });
+
+
+
+
+
+    </script>
+</body>
+
+</html>

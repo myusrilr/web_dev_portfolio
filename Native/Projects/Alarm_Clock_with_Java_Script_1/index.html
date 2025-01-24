@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #clock{
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        width: 75px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    button{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .container{
+        background-color: aqua;
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    #clock{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div id="clock">00:00:00</div>
+        <div class="body">
+            <input type="text" id="jam" placeholder="hours">
+            <input type="text" id="menit" placeholder="minutes">
+            
+            <h3 id="durasi"></h3>
+        </div>
+        <button>SET ALARM</button>
+        
+    </div>
+    
+    <script src="clock.js"></script>
+    <script src="alarm.js"></script>
+</body>
+</html>

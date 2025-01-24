@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(177, 70, 252, 1) 96%);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 238, 1) 100%);
+    border: 1px solid black;
+}
+
+.numeric,
+.memory,
+.operator {
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #fdfd;
+}
+
+#memory_add,
+#memory_min,
+#tambah,
+.operator_clear {
+    width: 53px;
+    height: 50px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #fdfd;
+}
+
+#display {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 340px;
+    font-size: 40px;
+    font-weight: bold;
+    height: 60px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.numeric:hover {
+    box-shadow: 0px 1px 3px black;
+    font-size: 30px;
+}
+
+#kurang,
+#kali,
+#bagi {
+    width: 120px;
+    height: 50px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #fdfd;
+}
+
+#tambah:hover {
+    background: green;
+    color: white;
+}
+
+#kurang:hover {
+    background: red;
+    color: white;
+}
+
+#kali:hover {
+    background: blue;
+    color: white;
+}
+
+#bagi:hover {
+    background: yellow;
+    color: black;
+}
+
+#calculate:hover {
+    background: orange;
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), 5px 5px 30px rgba(0, 0, 0, 0.25),
+        inset -2px -2px 5px rgba(0, 0, 0, 0.25),
+        inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn strong {
+    display: none;
+}
+
+.btn strong:nth-child(1) {
+    display: block;
+}
+/* Tema terang (default) */
+.light-mode {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(177, 70, 252, 1) 96%);
+    color: black;
+}
+
+.light-mode .container {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 238, 1) 100%);
+}
+
+.light-mode #display {
+    background-color: white;
+    color: black;
+}
+
+/* Tema gelap */
+.dark-mode {
+    background: radial-gradient(circle, #2c3e50, #34495e);
+    color: white;
+}
+
+.dark-mode .container {
+    background: radial-gradient(circle, #2c3e50, #7f8c8d);
+}
+
+.dark-mode #display {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.dark-mode .numeric,
+.dark-mode .memory,
+.dark-mode .operator,
+.dark-mode .operator_clear {
+    background-color: #444;
+    color: white;
+}
+.dark-mode .btn{
+    background-color: yellow;
+}
+/* Gaya dasar untuk tombol bulan dan matahari */
+#dark-mode-btn,
+#light-mode-btn {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Tema terang - tombol bulan lebih gelap */
+.light-mode #dark-mode-btn {
+    background-color: #333;  /* Gelap saat mode terang */
+    color: white;
+}
+
+/* Tema gelap - tombol matahari lebih cerah */
+.dark-mode #light-mode-btn {
+    color: black; 
+}
+

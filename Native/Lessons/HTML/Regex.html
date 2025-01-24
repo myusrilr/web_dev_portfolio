@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex</title>
+</head>
+<body>
+    <script>
+        // regex untuk mencari kata
+        // let text="ulang TAHUN kemerdekaan Indonesia"
+        // let cari=/kemerdekaan/;
+        // let hasil=text.match(cari);
+        // document.write(hasil);
+
+        // regex untuk mencari kata case sensitive
+        // let text="ulang TAHUN kemerdekaan Indonesia"
+        // let cari=/tahun/i;
+        // let hasil=text.match(cari);
+        // document.write(hasil);
+
+        // regex set refference
+        // const huruf=new set(["d"]);
+        // let text="dddd";
+        // let hasil=text.match(huruf)
+        // document.write(hasil);
+
+        // regex global refference
+        // let text="ulANg TAHUN kemerdekaan Indonesia";
+        // let cari=/an/gi;
+        // let hasil=text.match(cari);
+        // document.write(hasil);
+
+        // let text="ulANg TAHUN kemerdekaan Indonesia";
+        // let cari=/an/g;
+        // let hasil=text.search(cari);
+        // document.write(hasil);
+
+        // let text="ulANg TAHUN kemerdekaan indonesia";
+        // let cari=/an/gi;
+        // let hasil=cari.exec(text);
+        // document.write(hasil);
+
+        let text="ulANg* TAHUN kemerdekaan indonesia";
+        let cari=/[@]/;
+        let hasil=text.match(cari);
+        document.write(hasil);
+
+
+
+    </script>
+</body>
+</html>

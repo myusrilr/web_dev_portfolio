@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apa Aja yang bisa dilakukan oleh Java Script?</title>
+</head>
+<body>
+    <h2>Apa Aja yang bisa dilakukan oleh Java Script?</h2>
+    <ol type="1">
+        <li>
+            <!-- di dalam -->
+            <p id="tanggal">Menampilkan tanggal dan waktu</p>
+            <button type="button"onclick="document.getElementById('tanggal').innerHTML= Date()">Tekan aku untuk menampilkan tanggal dan waktu</button>
+            <!-- di luar -->
+            <script>
+                function waktu(){
+                    document.getElementById('tanggal').innerHTML= Date()
+                }
+            </script>
+        </li>
+
+        <li>
+            <p id="demo">Java Script bisa mengubah Konten HTML</p>
+            <button type="button"onclick='document.getElementById("demo").innerHTML="Hello JavaScript!"'>Click Me!</button>
+            
+        </li>
+
+        <li>
+            <p>Java script bisa mengubah nilai atribut HTML. Salah satunya bisa mengubah nilai dari src(source)atribut dari gambar</p>
+            <button onclick="document.getElementById('myImage').src='pic_bulbon.png'">Turn on the Light</button>
+            <img id="myImage" src="pic_bulboff.gif"  style="width: 200px">
+            <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the Light</button>
+        </li>
+
+        <li>
+            <p id="style">Java script bisa mengubah gaya dari elemen HTML</p>
+            <button type="button" onclick="document.getElementById('style').style.fontSize='40px'">Tekan Saya!</button>
+        </li>
+
+        <li>
+            <p>Menyembunyikan elemn HTML dengan mengubah display gaya</p>
+        </li>
+    </ol>
+</body>
+</html>

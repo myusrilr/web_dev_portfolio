@@ -1,0 +1,1135 @@
+ERROR - 2024-09-25 11:00:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Ezra rafa'%' at line 1 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:00:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Ezra rafa'%' at line 1
+[Method: POST, Route: registrasiulang/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:00:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Ezra rafa'%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:00:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Ezra rafa'%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'Ezra rafa\'%;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:00:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1 in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:00:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1
+[Method: GET, Route: registrasiulang/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:00:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:00:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like %\'\'%;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:01:56 --> mysqli_sql_exception: Unknown column 'idsiswa' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:01:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+[Method: POST, Route: registrasiulang/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:01:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:01:56 --> [Caused by] mysqli_sql_exception: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:02:27 --> mysqli_sql_exception: Unknown column 'idsiswa' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:02:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+[Method: POST, Route: registrasiulang/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:02:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:02:27 --> [Caused by] mysqli_sql_exception: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap where nama_lengkap like \'%ezra rafa%\';')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:03:08 --> mysqli_sql_exception: Unknown column 'idsiswa' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:03:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+[Method: POST, Route: registrasiulang/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:03:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap ;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap ;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:03:08 --> [Caused by] mysqli_sql_exception: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap ;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap ;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap ;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:08:05 --> mysqli_sql_exception: Unknown column 'idsiswa' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:08:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 2 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:08:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap ;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap ;')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 4 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:08:05 --> [Caused by] mysqli_sql_exception: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap ;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap ;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap ;')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap ;')
+ 5 APPPATH\Controllers\Registrasiulang.php(168): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap ;')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 11:09:44 --> mysqli_sql_exception: Unknown column 'idsiswa' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa,...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa,...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa,...')
+#3 C:\wamp64\www\leap\app\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa,...')
+#4 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(169): App\Models\Mcustom->getAllQ('select idsiswa,...')
+#5 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+#6 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-25 11:09:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+[Method: POST, Route: registrasiulang/cari]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap limit 5')
+ 2 APPPATH\Controllers\Registrasiulang.php(169): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap limit 5')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:09:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap limit 5')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap limit 5')
+ 3 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap limit 5')
+ 4 APPPATH\Controllers\Registrasiulang.php(169): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap limit 5')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:09:44 --> [Caused by] mysqli_sql_exception: Unknown column 'idsiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select idsiswa, nama_lengkap limit 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select idsiswa, nama_lengkap limit 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select idsiswa, nama_lengkap limit 5')
+ 4 APPPATH\Models\Mcustom.php(16): CodeIgniter\Database\BaseConnection->query('select idsiswa, nama_lengkap limit 5')
+ 5 APPPATH\Controllers\Registrasiulang.php(169): App\Models\Mcustom->getAllQ('select idsiswa, nama_lengkap limit 5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:21:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "https://leapsurabaya.sch.id/" cannot be found.
+[Method: GET, Route: registrasiulang/form]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://leapsurabaya.sch.id/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Registrasiulang.php(60): redirect('https://leapsurabaya.sch.id/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:22:11 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "https://leapsurabaya.sch.id/" cannot be found.
+[Method: GET, Route: registrasiulang/form]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://leapsurabaya.sch.id/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Registrasiulang.php(60): redirect('https://leapsurabaya.sch.id/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-25 11:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 11:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 11:30:24 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 67.
+ 1 APPPATH\Controllers\Registrasiulang.php(67): strlen(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:30:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "https://leapsurabaya.sch.id/" cannot be found.
+[Method: GET, Route: calonsiswasp/index]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://leapsurabaya.sch.id/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Calonsiswasp.php(62): redirect('https://leapsurabaya.sch.id/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calonsiswasp->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calonsiswasp))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:31:47 --> ErrorException: Attempt to read property "idpendkursus" on null
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Controllers\Registrasiulang.php on line 31.
+ 1 APPPATH\Controllers\Registrasiulang.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idpendkursus" on null', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:32:34 --> ErrorException: Undefined variable $idpendkursus
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Controllers\Registrasiulang.php on line 37.
+ 1 APPPATH\Controllers\Registrasiulang.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpendkursus', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:32:42 --> ErrorException: Attempt to read property "status" on null
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Controllers\Registrasiulang.php on line 41.
+ 1 APPPATH\Controllers\Registrasiulang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:32:48 --> ErrorException: Undefined variable $status
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Controllers\Registrasiulang.php on line 44.
+ 1 APPPATH\Controllers\Registrasiulang.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 11:41:23 --> ErrorException: Undefined property: App\Controllers\Registrasiulang::$mode
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Controllers\Registrasiulang.php on line 33.
+ 1 APPPATH\Controllers\Registrasiulang.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Registrasiulang::$mode', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:51:59 --> ErrorException: Attempt to read property "idsiswa" on null
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idsiswa" on null', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:53:21 --> ErrorException: Attempt to read property "nama_lengkap" on null
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 36.
+ 1 APPPATH\Views\back\single_page\register.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_lengkap" on null', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:53:28 --> ErrorException: Attempt to read property "idsiswa" on null
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 29.
+ 1 APPPATH\Views\back\single_page\register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idsiswa" on null', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:55:50 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('d-m-Y', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:42 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:44 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:44 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:45 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:45 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:45 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:46 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:46 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:46 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 18:56:47 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: registrasiulang/form/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register.php on line 56.
+ 1 APPPATH\Views\back\single_page\register.php(56): date('Y-m-d', '0000-00-00')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(44): view('back/single_page/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:24:52 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(59): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:24:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` IS NULL', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(59): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:24:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'2121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'18\', `kabupaten` = \'1811\', `kelurahan` = \'1811052010\', `kodepos` = \'1212\', `rt` = \'1\', `rw` = \'1\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'2121\'
+WHERE `idsiswa` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'2121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'18\', `kabupaten` = \'1811\', `kelurahan` = \'1811052010\', `kodepos` = \'1212\', `rt` = \'1\', `rw` = \'1\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'2121\'
+WHERE `idsiswa` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` IS NULL', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(59): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:24:52 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'2121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'18\', `kabupaten` = \'1811\', `kelurahan` = \'1811052010\', `kodepos` = \'1212\', `rt` = \'1\', `rw` = \'1\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'2121\'
+WHERE `idsiswa` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'2121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'18\', `kabupaten` = \'1811\', `kelurahan` = \'1811052010\', `kodepos` = \'1212\', `rt` = \'1\', `rw` = \'1\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'2121\'
+WHERE `idsiswa` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'2121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'18\', `kabupaten` = \'1811\', `kelurahan` = \'1811052010\', `kodepos` = \'1212\', `rt` = \'1\', `rw` = \'1\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'2121\'
+WHERE `idsiswa` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` IS NULL', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(59): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-25 15:24:58 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 53.
+ 1 APPPATH\Controllers\Registrasiulang.php(53): strlen(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:28:22 --> ErrorException: Undefined variable $status
+[Method: POST, Route: registrasiulang/proses]
+in APPPATH\Controllers\Registrasiulang.php on line 59.
+ 1 APPPATH\Controllers\Registrasiulang.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:32:23 --> ErrorException: Undefined variable $status
+[Method: POST, Route: registrasiulang/proses]
+in APPPATH\Controllers\Registrasiulang.php on line 59.
+ 1 APPPATH\Controllers\Registrasiulang.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:33:41 --> ErrorException: Undefined variable $status
+[Method: POST, Route: registrasiulang/proses]
+in APPPATH\Controllers\Registrasiulang.php on line 59.
+ 1 APPPATH\Controllers\Registrasiulang.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\wamp64\\www\\leap\\app\\Controllers\\Registrasiulang.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:36:40 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:36:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:36:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:36:40 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:38:12 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:38:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:38:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:38:12 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'12121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102012002\', `kodepos` = \'1212\', `rt` = \'2\', `rw` = \'2\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'12121\'
+WHERE `idsiswa` = \'S0000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:46:23 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:46:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:46:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101092013\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101092013\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:46:23 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101092013\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101092013\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101092013\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:47:15 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:47:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:47:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101012001\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101012001\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:47:15 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101012001\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101012001\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'1212\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'121\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1101\', `kelurahan` = \'1101012001\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-25 15:47:32 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 53.
+ 1 APPPATH\Controllers\Registrasiulang.php(53): strlen(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:47:32 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "https://leapsurabaya.sch.id/" cannot be found.
+[Method: GET, Route: registrasiulang/form]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://leapsurabaya.sch.id/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Registrasiulang.php(46): redirect('https://leapsurabaya.sch.id/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-25 15:49:31 --> mysqli_sql_exception: Unknown column 'statusmurid' in 'field list' in C:\wamp64\www\leap\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\leap\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` ...', 0)
+#1 C:\wamp64\www\leap\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` ...')
+#2 C:\wamp64\www\leap\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` ...')
+#3 C:\wamp64\www\leap\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` ...', Array, false)
+#4 C:\wamp64\www\leap\app\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', Array, Array)
+#6 C:\wamp64\www\leap\app\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+#7 C:\wamp64\www\leap\system\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+#8 C:\wamp64\www\leap\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+#9 C:\wamp64\www\leap\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\leap\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\leap\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\leap\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-25 15:49:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+[Method: POST, Route: registrasiulang/proses]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 2 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 4 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:49:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'1212\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102082012\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'1212\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102082012\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 4 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 6 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:49:31 --> [Caused by] mysqli_sql_exception: Unknown column 'statusmurid' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'1212\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102082012\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'1212\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102082012\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `siswa` SET `nama_lengkap` = \'EZRA RAFA DANAR\', `tmp_lahir` = \'Surabaya\', `panggilan` = \'RAFA\', `tgl_lahir` = \'2024-09-02\', `nisn` = \'12121\', `jkel` = \'Laki-laki\', `nama_sekolah` = \'ustus 2015\', `nik` = \'1212\', `kewarganegaraan` = \'Indonesia\', `agama` = \'Islam\', `provinsi` = \'11\', `domisili` = \'Rungkut Barata VI/12-14\', `kecamatan` = NULL, `kabupaten` = \'1102\', `kelurahan` = \'1102082012\', `kodepos` = \'\', `rt` = \'\', `rw` = \'\', `statusmurid` = \'Siswa Baru\', `info` = \'teman\', `rekomen` = \'\'
+WHERE `idsiswa` = \'S0000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `siswa` SET `nama_lengkap` = :nama_lengkap:, `tmp_lahir` = :tmp_lahir:, `panggilan` = :panggilan:, `tgl_lahir` = :tgl_lahir:, `nisn` = :nisn:, `jkel` = :jkel:, `nama_sekolah` = :nama_sekolah:, `nik` = :nik:, `kewarganegaraan` = :kewarganegaraan:, `agama` = :agama:, `provinsi` = :provinsi:, `domisili` = :domisili:, `kecamatan` = :kecamatan:, `kabupaten` = :kabupaten:, `kelurahan` = :kelurahan:, `kodepos` = :kodepos:, `rt` = :rt:, `rw` = :rw:, `statusmurid` = :statusmurid:, `info` = :info:, `rekomen` = :rekomen:
+WHERE `idsiswa` = :idsiswa:', [...], false)
+ 5 APPPATH\Models\Mcustom.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Registrasiulang.php(90): App\Models\Mcustom->update('siswa', [...], [...])
+ 7 APPPATH\Controllers\Registrasiulang.php(56): App\Controllers\Registrasiulang->updateSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-25 15:49:37 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Registrasiulang.php on line 53.
+ 1 APPPATH\Controllers\Registrasiulang.php(53): strlen(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 15:49:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "https://leapsurabaya.sch.id/" cannot be found.
+[Method: GET, Route: registrasiulang/form]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://leapsurabaya.sch.id/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Registrasiulang.php(46): redirect('https://leapsurabaya.sch.id/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-25 23:51:31 --> ErrorException: Undefined property: stdClass::$waortu
+[Method: GET, Route: registrasiulang/form2/c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09]
+in APPPATH\Views\back\single_page\register2.php on line 261.
+ 1 APPPATH\Views\back\single_page\register2.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$waortu', 'C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register2.php', 261)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\leap\\app\\Views\\back\\single_page\\register2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('back/single_page/register2', [], true)
+ 5 APPPATH\Controllers\Registrasiulang.php(213): view('back/single_page/register2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasiulang->form2('c3hUYisvRnZxVWhiTkpMeDJ5UEJHdz09')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasiulang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
